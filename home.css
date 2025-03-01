@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+.neuton-extralight {
+    font-family: "Neuton", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+    
+  .neuton-light {
+    font-family: "Neuton", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+    
+  .neuton-regular {
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+  .neuton-bold {
+    font-family: "Neuton", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+    
+  .neuton-extrabold {
+    font-family: "Neuton", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+    
+  .neuton-regular-italic {
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: italic;
+  } 
+  .dangrek-regular {
+    font-family: "Dangrek", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+    display: grid;
+    grid-template-rows: 0.2fr 2fr  0.2fr;
+    font-family: "Neuton" ,serif;
+    
+}
+.nav{
+    color: white;
+    font-size: 32px;
+    padding: 5px;   
+    margin-right: 80px; 
+    font-weight: bold;
+}
+a{
+    color: black;
+}
+h3{
+    font-family: "Dangrek", serif;
+    margin-left: 25px;
+    font-size: 28px;
+}
+nav{
+    font-family: "Dangrek", serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:#444;
+    justify-content: start;
+    margin-bottom: 50px;
+    color: white;
+    text-align: start;
+}
+.links{
+    display: flex;
+    justify-content: end;
+    margin-right: 80px;
+    align-items: center;
+}
+.blogPosts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: start;
+    gap: 30px;
+}
+.box{
+    height: 285px;
+    width: 420px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+h5{
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0px;
+}
+#p1{
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+p{
+    font-size: 20px;
+    margin-top: 2px;
+}
+.sidebar{
+    margin-top: 50px;
+    font-size: 20px ;
+}
+br{
+    height: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+@media(max-width: 320px) {
+    body {
+        grid-template-rows: 0.2fr 2fr 0.2fr;
+        font-family: "Neuton", serif;
+    }
+    
+    .nav {
+        font-size: 24px;
+        padding: 5px;
+        margin-right: 20px;
+    }
+    
+    nav {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .links {
+        justify-content: center;
+        margin-right: 0px;
+    }
+    
+    .blogPosts {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .box {
+        height: 450px;
+        width: 200px;
+        padding: 5px;
+        border-width: 3px;
+        border-radius: 10px;
+    }
+    
+    h3 {
+        margin-left: 10px;
+        font-size: 22px;
+    }
+    
+    h5 {
+        font-size: 20px;
+    }
+    
+    #p1, p {
+        font-size: 18px;
+    }
+    
+    .sidebar {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+}
+@media(min-width: 321px) and (max-width: 900px) {
+    body {
+        grid-template-rows: 0.2fr 2fr 0.2fr;
+        font-family: "Neuton", serif;
+    }
+    
+    .nav {
+        font-size: 28px;
+        padding: 10px;
+        margin-right: 40px;
+    }
+    
+    nav {
+        grid-template-columns: 1fr 1fr;
+        text-align: start;
+        margin-bottom: 40px;
+    }
+    
+    .links {
+        justify-content: end;
+        margin-right: 40px;
+    }
+    
+    .blogPosts {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+    
+    .box {
+        height: auto;
+        width: 85%;
+        padding: 15px;
+        border-width: 4px;
+        border-radius: 8px;
+    }
+    
+    h3 {
+        margin-left: 15px;
+        font-size: 24px;
+    }
+    
+    h5 {
+        font-size: 22px;
+    }
+    
+    #p1, p {
+        font-size: 19px;
+    }
+    
+    .sidebar {
+        margin-top: 40px;
+        font-size: 19px;
+    }
+}

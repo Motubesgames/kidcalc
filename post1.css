@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+.neuton-extralight {
+  font-family: "Neuton", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+  
+.neuton-light {
+  font-family: "Neuton", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+  
+.neuton-regular {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+.neuton-bold {
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+  
+.neuton-extrabold {
+  font-family: "Neuton", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+  
+.neuton-regular-italic {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: italic;
+} 
+.dangrek-regular {
+  font-family: "Dangrek", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  font-family: "Neuton", serif;
+  
+}
+h1{
+  font-family: "Dangrek", serif;
+  background-color: #444;
+  color: white;
+  padding-bottom: 5px;
+}
+.centerPage{
+  display: grid;
+  grid-template-columns: 3.236fr 1fr;
+}
+.content{
+  font-size: 26px;
+  margin-left: 25px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.author{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+#img1{
+  height: 200px;
+  width : 200px;
+}
+.neuton-extralight {
+  font-family: "Neuton", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.neuton-light {
+  font-family: "Neuton", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.neuton-regular {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.neuton-bold {
+  font-family: "Neuton", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.neuton-extrabold {
+  font-family: "Neuton", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.neuton-regular-italic {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+  font-family: "Neuton", serif;
+}
+
+h1 {
+  background-color: #444;
+  color: white;
+  padding-bottom: 5px;
+}
+
+.centerPage {
+  display: grid;
+  grid-template-columns: 3.236fr 1fr;
+}
+
+.content {
+  font-size: 26px;
+  margin-left: 25px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+#img1 {
+  height: 200px;
+  width: 200px;
+}
+
+@media(max-width:320px) {
+  .centerPage {
+    grid-template-columns: 1fr;
+  }
+  .content {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .author {
+    align-items: center;
+  }
+  #img1 {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media(min-width:321px) and (max-width:900px) {
+  .centerPage {
+    grid-template-columns: 2fr 1fr;
+  }
+  .content {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .author {
+    align-items: flex-start;
+  }
+  #img1 {
+    height: 150px;
+    width: 150px;
+  }
+}
